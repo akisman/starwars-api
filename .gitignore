@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+
+# Database files
+starwars.db
+
+# Python cache and compiled files
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# IDE/editor configs
+.idea/
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+
+# Environment variables
+.env
+.env.* 
+
+# Docker
+*.dockerfile
