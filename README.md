@@ -70,7 +70,13 @@ python -m app.cli sync-all
 
 ### Run Development Server
 
-Start FastAPI with hot-reload for local development:
+Start FastAPI with hot-reload for local development with:
+
+```bash
+fastapi dev app/main.py
+```
+
+or:
 
 ```bash
 uvicorn app.main:app --reload
